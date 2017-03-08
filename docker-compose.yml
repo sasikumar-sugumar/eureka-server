@@ -1,0 +1,9 @@
+# Docker compose to build and run the read service
+version: '2'
+services:
+  eureka-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.eurekaserver
+    ports: 
+      - "8761:8761"
