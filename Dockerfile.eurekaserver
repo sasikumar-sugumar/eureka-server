@@ -8,7 +8,7 @@ FROM frolvlad/alpine-oraclejdk8:slim
 # install
 
 # label for the image
-LABEL Description="Read Service" Version="0.0.1"
+LABEL Description="Eureka Server" Version="0.0.1"
 
 # the version of the archive
 ARG VERSION=0.0.1
